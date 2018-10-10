@@ -6,8 +6,8 @@ const nodemailer = require('nodemailer');
 let sendEmail = (sendEmailOptions) => {
 
     let account = {
-        user: 'todolistperfect97@gmail.com',
-        pass: 'dannydude141206' 
+        user: '',
+        pass: '' 
     }
 
     let transporter = nodemailer.createTransport({
